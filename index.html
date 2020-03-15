@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=           
+    <script src="https://kit.fontawesome.com/4e17b7e2df.js" crossorigin="anonymous"></script>
+    <div class="grid-container">
+      <div class="header">
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          grid-area: header;
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+          font-size: 15px;
+        }
+        
+        .grid-container {
+          display: grid;
+          grid-template-areas: 
+            'header header header header header header' 
+            'left left middle middl right right' 
+            'footer footer footer footer footer footer';
+            grid-column-gap: 10px;
+        
+        } 
+        
+        .middle1,
+        .middle{
+          padding: 10px;
+          height: 200px; 
+        }
+        
+        .left {
+          grid-area: left;
+          padding: 10px;
+
+        }
+        
+        .middle {
+          grid-area: middle;
+          padding: 10px;
+
+        }
+        
+        .right {
+          grid-area: right;
+        }
+        
+        .footer {
+          grid-area: footer;
+          background-color: #f1f1f1;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        @media (max-width: 600px) {
+          .grid-container  {
+            grid-template-areas: 
+              'header header header header header header' 
+              'left left left left left left' 
+              'middle1 middle1 middle1 middle1 middle1 middle1' 
+              'middle2 middle2 middle2 middle2 middle2 middle2' 
+              'right right right right right right'
+              'footer footer footer footer footer footer';
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <div class="grid-container">
+          <div class="header">
+          <p>Meet Kenzie</p>
+            <p>We founded Kenzie Academy to tackle a major opportunities gap in America. We discovered that fast-growing
+                       technology companies concentrated in expensive coastal cities were struggling to hire tech talent.
+                       Meanwhile, a large population of aspiring individuals across the country could help fuel these talent
+                       needs. Our
+                       mission is to equip this population with the necessary skills, experience, and access in order
+                       to build successful careers in tech.</p>
+        
+          </div>
+          
+          <div class="left" style="background-color:#aaa;">Team</div>
+          <div class="middle1" style="background-color:#bbb;">Board</div>
+            <div class="middle2" style="background-color:#aaa;">Mentors</div>  
+          <div class="right" style="background-color:#ccc;">Advisors</div>
+          
+          <div class="footer">
+              <h3 class="students">Students</h3>
+          <p class="std__para">Learn about the diverse background of Kenzie students and how they are transforming
+                       their lives
+                       at Kenzie Academy</p>
+             <div class="info__footer">
+                   <div class="info__video">
+        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FqVHe2BGdEw" frameborder="0"
+                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                   </div> </p>
+                             
+                
+               </div>
+               </div>
+                   
+        </div>
+        
+        </body>
+        </html>
+        
